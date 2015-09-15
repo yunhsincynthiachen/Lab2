@@ -1,7 +1,17 @@
 ##Mobile Proto Lab 2
 
+###Learning Objectives
 
-###Objectives
+By the end of this lab, you should be able to:
+
+- Developing universal and relevant Android development skills, including:
+  - interacting with Web resources
+  - saving and retrieving data from a database
+  - using Fragments
+  - displaying image resources to a user
+- Organize your time effectively over the span of a project
+
+###Application Objectives
 
 Build a photo feed app that should be capable of:
 
@@ -17,8 +27,8 @@ To accomplish these goals you will have to learn/use:
 - Make HTTP Requests using Volley
 - Understand setup process for third party APIs
 
-
 ###Implementation Tips
+
 Since this lab is longer we will give you some guidance on implementation:
 
 - This lab should contain 1 activity and 2 fragments. One fragment should contain functionality necessary to search for images and add them to your feed and the other should display your feed.
@@ -32,20 +42,17 @@ https://cse.google.com/cse/all
 That link is where you can add a new custom search engine for your application.
 On setup configuration you will want to go to advanced options and add support for the schema ImageObject
 After creating your search engine you will want to got ot he control panel and turn on image search.
-There are a few parameters you need from your search engine for it to work. The first is the id. You can find that on the control panel with the tab "Search engine id" this id should be set to the URL paramter "cx"
+There are a few parameters you need from your search engine for it to work. The first is the id. You can find that on the control panel with the tab "Search engine id" this id should be set to the URL parameter "cx"
 
 You will also need to get the api key by following the instructions in this link:
 https://developers.google.com/custom-search/json-api/v1/introduction#identify_your_application_to_google_with_api_key
 
-
-
-
-
 ####Saving data
+
 While it is possible to save the necessary data here in SharedPreferences, we want you to set up the local SQL database on your phone. 
-This link provides a very good guide
-http://developer.android.com/training/basics/data-storage/databases.html
-It is likely you do not want to save the actual image to the database. Find something that can be used to load the image instead
+This link provides a very good guide: http://developer.android.com/training/basics/data-storage/databases.html.
+
+It is likely you do not want to save the actual image to the database. Find something that can be used to load the image instead. 
 
 It seems like occasionally JSON data returned form this API will not match what you expect, you should figure out how to smoothly handle this without crashing your application.
 
