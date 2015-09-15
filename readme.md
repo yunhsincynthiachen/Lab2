@@ -37,6 +37,11 @@ Since this lab is longer we will give you some guidance on implementation:
 
 ####Configuration for Google Custom Search API
 
+Go to the [Google Console](https://console.developers.google.com) and create a new project. Once your project is created go into the project and select the API tab on the left. 
+Search for custom search and add the Google Custom Search API to your project.
+Under credentials create a new api key. Select server key and copy down this value. This needs to be teh value for your URL parameter "key"
+
+
 https://cse.google.com/cse/all
 
 That link is where you can add a new custom search engine for your application.
