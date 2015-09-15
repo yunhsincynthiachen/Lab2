@@ -31,7 +31,7 @@ To accomplish these goals you will have to learn/use:
 
 Since this lab is longer we will give you some guidance on implementation:
 
-- This lab should contain 1 activity and 2 fragments. One fragment should contain functionality necessary to search for images and add them to your feed and the other should display your feed.
+- This lab should contain 1 activity and 2 fragments. One fragment should contain functionality necessary to search for images and add them to your feed and the other should display your feed. It will be easiest to add a button to your screen that switches fragments but doing something like [this](http://developer.android.com/training/animation/screen-slide.html) or [this](https://developer.android.com/training/basics/actionbar/adding-buttons.html) would look much nicer.
 - There are two ways to display images in Android, an ImageView and a WebView. WebView is likely easiest.
 - To display multiple images the best looking way is likely a ScrollView, but it is fairly difficult to handle some things with a scroll view so we recommend using two buttons to change the currently displayed image. 
 
