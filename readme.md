@@ -73,6 +73,6 @@ Functionality 75%
 
 Code Quality 25%
 
--Good MVC practices
+- Good MVC practices
 - Android best practices
 
