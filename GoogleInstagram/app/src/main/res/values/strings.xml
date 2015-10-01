@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GoogleInstagram</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_search">What images would you like us to search for?</string>
+    <string name="searchbuttontext">Search!</string>
+    <string name="imagesavequestion">Save the image?</string>
+    <string name="savebutton">Save!</string>
+    <string name="view_all_text">View All Your Images!</string>
+    <string name="next_button">Next</string>
+    <string name="previous_button">Previous</string>
+    <string name="all_images_welcome_message">Here are all of the images that you have saved!</string>
+    <string name="go_to_search_button">Search for Images!</string>
+    <string name="remove_image_button">Remove Image</string>
+</resources>

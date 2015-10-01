@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".AllImagesFragment">
+
+    <TextView android:text="@string/all_images_welcome_message" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/all_images_message"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/viewimage_all"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/next_button"
+        android:layout_below="@id/viewimage_all"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/next_image_all"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/previous_button"
+        android:layout_below="@id/viewimage_all"
+        android:id="@+id/previous_image_all"
+        android:layout_toLeftOf="@id/next_image_all"
+        android:layout_toStartOf="@id/next_image_all"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="50dp"
+        android:text="@string/remove_image_button"
+        android:layout_below="@id/previous_image_all"
+        android:id="@+id/remove_image_button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/go_to_search_button"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/search_images_button"/>
+
+</RelativeLayout>
